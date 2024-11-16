@@ -1,6 +1,6 @@
 /*
 Langton's Ant is a cellular automation that shows how a simple set of rules can lead to chatotic
-behavior and eventually produce surprising order.package goplay
+behavior and eventually produce surprising order.
 */
 
 package main
@@ -43,7 +43,7 @@ func displayGrid(grid [][]bool, ant Ant) {
 	for i := 0; i < height; i++ {
 		for j := 0; j < width; j++ {
 			if i == ant.y && j == ant.x {
-				fmt.Print("A") // Ant position
+				fmt.Print("🐜") // Ant position
 			} else if grid[i][j] {
 				fmt.Print("█") // Colored cell
 			} else {
